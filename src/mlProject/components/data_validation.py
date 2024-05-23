@@ -1,10 +1,12 @@
+
 import os
 from mlProject import logger
 import pandas as pd
 from mlProject.entity.config_entity import DataValidationConfig
 
 
-class DataValidation:
+
+class DataValiadtion:
     def __init__(self, config: DataValidationConfig):
         self.config = config
 

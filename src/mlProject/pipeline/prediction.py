@@ -4,7 +4,7 @@ import pandas as pd
 from pathlib import Path
 
 
-class PredcitionPipeline:
+class PredictionPipeline:
     def __init__(self):
         self.model = joblib.load(Path('artifacts/model_trainer/model.joblib'))
 

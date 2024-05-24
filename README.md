@@ -13,6 +13,9 @@
 8. update the main.py
 9. update the app.py
 
+# How to run?
+### STEPS:
+
 
 ```bash
 python3.10 -m venv  venv
